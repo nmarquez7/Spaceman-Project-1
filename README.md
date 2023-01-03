@@ -1,10 +1,27 @@
-## Game name: Spaceman
+# Spaceman Game
 
-## Gameplay: The user will have a random word assigned for the round and multiple blank spaces will be displayed on the screen indicating the amount of letters in the "Secret Word". The user will then type their guess for a single letter that may or may not be in the word. The submit button will be pressed in order to establish the guessed character. If the letter guessed is a part of the "Secret Word", the letter will appear in the corresponding blank and the user will proceed to guess the next letter. If the letter that is guessed is not in the "Secret Word", then an individual body part of the "Spaceman" will form. You will have up to 6 incorrect guesses before the game will notify you that you have lost. If you correctly guess the word without using all of 6 failed opportunities, then the game will notify you that you have won! If the user decides to restart the game and have a new random word generated, then they will need to click the "Reset" button which will restart the the game and generate a new random word. 
+## Gameplay: 
+The user will have a random word assigned for the round and multiple blank spaces will be displayed on the screen indicating the amount of letters in the "Secret Word". The user will then type their guess for a single letter that may or may not be in the word. The submit button will be pressed in order to establish the guessed character. If the letter guessed is a part of the "Secret Word", the letter will appear in the corresponding blank and the user will proceed to guess the next letter. If the letter that is guessed is not in the "Secret Word", then an individual body part of the "Spaceman" will form. You will have up to 6 incorrect guesses before the game will notify you that you have lost. If you correctly guess the word without using all of 6 failed opportunities, then the game will notify you that you have won! If the user decides to restart the game and have a new random word generated, then they will need to click the "Reset" button which will restart the the game and generate a new random word. 
+
+## User Stories:
+> "As a user, I would like to..."
+* Freely enter my character guesses into the text box
+* See the appendages of the "Spaceman" to form when incorrect guesses are made.
+* See the correctly guessed characters appear in their respective blanks.
+* Show a message indicating when the "Secret Word" has been correctly guessed.
+* Show a message if the "Secret Word" was not correctly guessed and have subsequently lost.
+* Have the ability to reset the game and generate a new word when the "Reset" button has been clicked. 
+
+## Stretch Goals
+> "As a creator, I would like to..."
+* Give the player an option to input their own "Secret Words" to enable multiplayer gameplay.
+* Have "Spaceman" themed images.
+* Have interactive sounds when buttons are clicked and characters are entered.
 
 ## Technologies used: 
 * HTML 
 * CSS 
 * Javascript
 
-## Link to project wire frame: https://lucid.app/lucidchart/7e2bea86-16a1-44d4-a5b1-3f629350639d/edit?beaconFlowId=E2367BF5DF377B56&invitationId=inv_1db7c444-ce03-4b94-b509-9b3058c4b0a9&page=0_0#
+## Wire Frame
+![Spaceman Wire Frame](./Spaceman-Wire-Frame.png)
