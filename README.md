@@ -38,3 +38,5 @@ a conditional and assign it math.random to generate new word and reset game.
 ``` document.eventListener for when the "Submit" button is clicked in order to submit guessed character.
 
 
+
+
