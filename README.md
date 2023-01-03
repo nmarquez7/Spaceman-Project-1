@@ -7,18 +7,26 @@ The user will have a random word assigned for the round and multiple blank space
 ### MVP
 > "As a user, I would like to..."
 * Freely enter my character guesses into the text box
-    ``` input/text box for character guesses
-        list for random generated words math.random
-        document.eventListener for when the "Submit" button is clicked in order to submit the guessed character.```
+``` 
+input/text box for character guesses
+list for random generated words math.random
+document.eventListener for when the "Submit" button is clicked in order to submit the guessed character.
+```
 * See the appendages of the "Spaceman" to form when incorrect guesses are made.
-    ```conditional for correct and incorrect guesses including adding Spaceman appendages
+```
+conditional for correct and incorrect guesses including adding Spaceman appendages
+```
 * See the correctly guessed characters appear in their respective blanks.
 * Show a message indicating when the "Secret Word" has been correctly guessed.
 * Show a message if the "Secret Word" was not correctly guessed and have subsequently lost.
-     messages when word is guessed correctly/incorrectly using conditionals and returns```
+```
+messages when word is guessed correctly/incorrectly using conditionals and returns
+```
 * Have the ability to reset the game and generate a new word when the "Reset" button has been clicked. 
-    ``` document.eventListener for when the "Reset" button is clicked and create
-a conditional and assign it math.random to generate new word and reset game.```
+``` 
+document.eventListener for when the "Reset" button is clicked and create
+a conditional and assign it math.random to generate new word and reset game.
+```
 
 ### Version 2 
 > "As a user, I would like to..."
