@@ -11,6 +11,7 @@ The user will have a random word assigned for the round and multiple blank space
 * Show a message indicating when the "Secret Word" has been correctly guessed.
 * Show a message if the "Secret Word" was not correctly guessed and have subsequently lost.
 * Have the ability to reset the game and generate a new word when the "Reset" button has been clicked. 
+    
 
 ## Stretch Goals
 > "As a creator, I would like to..."
@@ -25,3 +26,15 @@ The user will have a random word assigned for the round and multiple blank space
 
 ## Wire Frame
 ![Spaceman Wire Frame](./Spaceman-Wire-Frame.png)
+
+## Pseudocode:
+> "Create..."
+``` input/text box for character guesses
+``` list for random generated words math.random
+``` conditional for correct and incorrect guesses including adding Spaceman appendages
+``` messages when word is guessed correctly/incorrectly using conditionals and returns
+``` document.eventListener for when the "Reset" button is clicked and create
+a conditional and assign it math.random to generate new word and reset game.
+``` document.eventListener for when the "Submit" button is clicked in order to submit guessed character.
+
+
