@@ -6,9 +6,15 @@ let secretWord = null
 // setSecret will pick a secret word from the secret array.
 const setSecret = () => {
     secretWord = secretArray[Math.floor(Math.random() * secretArray.length )]
+    
+for(let i = 0; i < secretWord.length; i++){
+    console.log([i],'__')
+
+}
 }
 setSecret()
 console.log(secretWord)
+
 
 // Form input function: This lets us guess letters from our input field via form.
 const myGuessForm = document.getElementById('myGuessForm')
