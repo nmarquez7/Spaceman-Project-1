@@ -17,6 +17,12 @@ const processGuess = (event) => {
     event.preventDefault()
     let guessLetter = myGuessForm.elements.guess.value
     console.log(guessLetter)
+
+    
+    console.log(secretWord.includes(guessLetter))
+
+    
+
 // This is where I will handle all of my game logic.
 }
 // We are attaching the processGuess function to the submit event of our guess form to drive game logic.
@@ -29,6 +35,6 @@ myGuessForm.addEventListener('submit',processGuess )
 
 
 
-    
+
 
 
