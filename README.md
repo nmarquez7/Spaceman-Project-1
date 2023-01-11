@@ -1,5 +1,12 @@
 # Spaceman Game
+## Getting Started
 
+To play this game live you can click this [link](https://nmarquez7.github.io/Spaceman-Project-1/)
+
+Instructions:
+
+- Click in the text box and type the letter you wish to guess and click submit.
+- Once word has been correctly/incorrectly guessed, click the reset button to generate a new round.
 ## Gameplay: 
 The user will have a random word assigned for the round and multiple blank spaces will be displayed on the screen indicating the amount of letters in the "Secret Word". The user will then type their guess for a single letter that may or may not be in the word. The submit button will be pressed in order to establish the guessed character. If the letter guessed is a part of the "Secret Word", the letter will appear in the corresponding blank and the user will proceed to guess the next letter. If the letter that is guessed is not in the "Secret Word", then an individual body part of the "Spaceman" will form. You will have up to 6 incorrect guesses before the game will notify you that you have lost. If you correctly guess the word without using all of 6 failed opportunities, then the game will notify you that you have won! If the user decides to restart the game and have a new random word generated, then they will need to click the "Reset" button which will restart the the game and generate a new random word. 
 
